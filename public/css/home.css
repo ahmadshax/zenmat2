@@ -1,0 +1,214 @@
+.container{
+background-color:blueviolet;
+position: relative;
+width: 100%px;
+height: 145px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+}
+.container .mainn{
+    position: relative;
+    height: auto;
+    width: 1320px;
+ padding: 20px 0px 14px;
+}
+.mainn .top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+   
+}
+.mainn .bott{
+    width: 1320px;
+    height: 30px;
+    border-top: 1px solid rgb(76, 66, 66);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+.top .search{
+   border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+width: 651px;
+height: 50px;
+display: flex;
+flex-direction: row;
+}
+.search .searchbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 651px;
+}
+.list select{
+
+align-items: center;
+border: none;
+}
+.searchbox .list{
+    display: flex;
+    flex-direction: row;
+border-right: 1px solid rgb(70, 61, 61);
+width: auto;
+
+padding: 12px 17px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    margin-left: 16px;
+    border: none;
+    outline: none;
+
+}
+.search .lupa{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 6px 6px 0px;
+background: rgba(245, 195, 75, 1);
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.topmanyu{
+    width: 451px;
+    height: 50px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topmanyu .boxheart{
+   
+    position: relative;
+    display: flex;
+    flex-direction: row;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 6px;
+width: 50px;
+justify-content:center;
+align-items: center;
+}
+.topmanyu .info{
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+
+    color: rgba(255, 255, 255, 1);
+font-family: "Jost";
+font-size: undefinedpx;
+font-weight: undefined;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+align-items: center;
+justify-content:flex-end;
+
+}
+.topmanyu{
+    justify-content: space-around;
+}
+.basketcount{
+
+background-color: 
+rgba(245, 195, 75, 1);
+border-radius: 50%;
+width: 15px;
+height: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+line-height: 10px;
+
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.brows{
+  margin-top: 12px;
+width: 185px;
+height: 30px;
+border-right: 1px solid  rgb(55, 47, 47);
+
+
+}
+
+.brows span{
+   border-right: 1px solid color: rgba(255, 255, 255, 1);;
+    font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+
+}
+.bott .home{
+    margin-left: 9px;
+    margin-top: 12px;
+width: 361.71px;
+height: 28px;
+color: rgba(255, 255, 255, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bott .deal{
+width: 462px;
+height: 28px;
+
+color: rgba(255, 255, 255, 1);
+
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: right;
+}
+.bott .home{
+  
+
+display: flex;
+justify-content: space-between;
+
+}
+.deal{
+   
+margin-top: 12px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: right;
+
+margin-left: 299px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.top{
+    position: relative;
+    margin-bottom: 20px;
+   
+}
