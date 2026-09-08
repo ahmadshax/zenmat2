@@ -210,5 +210,130 @@ justify-content: space-between;
 .top{
     position: relative;
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.specialoffer{
+    flex-direction: row;
+    display: flex;
+    gap:26px;
+    margin-top: 47px;
+    justify-content: center;
+}
+.offer{
+    position: absolute;
+ margin-top: 101px;
+    margin-left: 15px;
+}
+
+.offer button{
+    
+width: 104px;
+height: 30px;
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10px;
+padding: 4px 14px 4px 14px;
+
+border-radius: 6px;
+background: rgba(245, 195, 75, 1);
+}
+
+
+.specialoffer .bigbox{
+    position: relative;
+width: 871px;
+height: 508px;
+background: rgba(0, 83, 246, 1);
+display: flex;
+flex-direction: column;
+
+}
+
+.immersive{
+
+margin-left: 15px;
+margin-top: 170px;
+color: rgba(255, 255, 255, 1);
+
+
+
+}
+
+.discover{
    
+    margin-top: 7px;
+    margin-left: 15px;
+ /* Discover our new items. Up to 25% Off ! */
+width: 262px;
+height: 56px;
+color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 13px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.now button{
+    margin-top: 20px;
+margin-left: 15px;
+width: 140px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10px;
+padding: 15px 35px 15px 35px;
+}
+
+.tv{
+    position: absolute;
+margin-top: 68px;
+margin-left: 330px;
+width: 519.51px;
+height: 407px;
+background-image: url(./images/icons/header_img.svg);
+}
+
+
+
+
+
+.small{
+    display: flex;
+    flex-direction: column;
+
+    gap: 28px;
+}
+
+.smallbox1{
+/* Rectangle 56 */
+width: 422.4px;
+height: 240px;
+
+background: rgba(242, 242, 242, 1);
+}
+
+.smallbox2{
+   /* Rectangle 56 */
+width: 422.4px;
+height: 240px;
+
+background: rgba(242, 242, 242, 1); 
+
 }
