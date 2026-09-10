@@ -321,19 +321,176 @@ background-image: url(./images/icons/header_img.svg);
     gap: 28px;
 }
 
+
+
 .smallbox1{
-/* Rectangle 56 */
 width: 422.4px;
 height: 240px;
-
+display: flex;
+flex-direction: row;
 background: rgba(242, 242, 242, 1);
 }
+.smallbox1 .health{
+    display: flex;
+    flex-direction: column;
+    
+width: 186px;
+height: 240px;
+}
+.health .from{
+    color: rgb(11, 87, 239);
+
+font-family: "Jost";
+font-size: 15px;
+font-weight: undefined;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 51px;
+margin-left:37px ;
+}
+
+.health .monitor{
+    color: rgba(4, 30, 66, 1);
+margin-left: 37px;
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 26px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.health .shopnow{
+width: 122.3px;
+height: 27px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 3px;
+
+margin-left: 37px;
+}
+
+.smallbox1 .iwatch{
+width: 236px;
+height: 240px;
+
+background: url(./images/icons/smart_watch.svg);
+}
+
+
+
+
+
+
+
 
 .smallbox2{
-   /* Rectangle 56 */
+display: flex;
+flex-direction: row;
+
 width: 422.4px;
 height: 240px;
 
 background: rgba(242, 242, 242, 1); 
+}
 
+.smallbox2 .health2{
+    width: 181px;
+    display: flex;
+    flex-direction: column;
+}
+
+.health2 .from2{
+    color: rgb(11, 87, 239);
+
+font-family: "Jost";
+font-size: 15px;
+font-weight: undefined;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 51px;
+margin-left:37px ;
+}
+
+.health2 .monitor2{
+    z-index: 2;
+    color: rgba(4, 30, 66, 1);
+margin-left: 37px;
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 26px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.health2 .shopnow2{
+width: 122.3px;
+height: 27px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 3px;
+
+margin-left: 37px;
+}
+
+.smallbox2 .iwatch2{
+width: 236px;
+height: 240px;
+
+background: url(./images/icons/smart_watch.svg)
+}
+
+
+
+
+
+.free{
+    width: 1320px;
+    height: 77px;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(234, 234, 234, 1);
+   
+    margin-left: 95px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.free .truckicon{
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.free .shipping{
+    /* info */
+width: 216.06px;
+height: 77px;
+margin-right: 10px;
+}
+
+.free .shipping{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shipping strong{
+    margin-bottom:6px;
+}
+.shipping span{
+    padding-bottom: 10px;
+    color: rgba(98, 105, 116, 1);
 }
