@@ -458,18 +458,21 @@ background: url(./images/icons/smart_watch.svg);
 .free{
     width: 1320px;
     height: 77px;
-    justify-content: space-around;
+ justify-content: center;
     border-bottom: 2px solid rgba(234, 234, 234, 1);
-   
-    margin-left: 95px;
+
+    
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    align-items: center;
+    gap: 15px;
 }
 
 .free .truckicon{
   margin-right:10px;
   margin-top:0px;
+
 }
 
 .free .shipping{width: 216.06px;
@@ -519,10 +522,10 @@ text-align: left;
    
 width: 299.81px;
 height: 40px;
-
-display: flex;
 margin-left: 1100px;
-justify-content: center;
+display: flex;
+
+
 align-items: center;
 
 gap: 3px;
@@ -537,11 +540,10 @@ position: absolute;
     flex-direction: row;
     margin-top: 30px;
 
-    justify-content: space-between;
+
     width: 1320px;
     height: 241px;
-
-    margin-left: 95px;
+justify-content: space-between;
 
   
 }
@@ -577,4 +579,17 @@ display: flex;
     margin-left: 25px;
     align-items: center;
     text-align: center;
+}
+.allcatagories{
+    display: flex;
+justify-content: center;
+}
+.alll{
+    display: flex;
+    justify-content: center;
+}
+
+.alll2{
+    display: flex;
+    justify-content: center;
 }
