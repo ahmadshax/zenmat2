@@ -529,7 +529,7 @@
 .selling_product_frame .container .product_wrapper {
     position: relative;
     margin-top: 30px;
-    width: 100%;
+    width:1320px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -551,9 +551,21 @@
     cursor: pointer;
 }
 
+
+
+.product_wrapper{
+    width: 1320px;
+}
+
+
+
+
+
+
+
 .selling_product_frame .product_wrapper .product_boxes {
     position: relative;
-    width: 1224px;
+    width: 1320px;
     height: 452px;
 
     display: flex;
@@ -1168,3 +1180,233 @@ height: 10px;
     line-height: 22px;
 
  }
+
+
+
+
+ .footerframe{
+    
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: blue;
+ }
+
+ .footercon{
+
+  
+    width: 1320px;
+    height:500px ;
+
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+   
+    
+  
+ }
+ .footertext{
+display: flex;
+flex-direction: column;
+justify-content:center;
+
+
+
+
+ }
+ .footertop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+     color: rgb(255, 255, 255, 1);
+  
+ }
+ .footertop .topdeals{
+    margin-bottom: 30px;
+ }
+
+ .footer178{
+  color: rgb(255, 255, 255, 1);
+
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ }
+
+
+ .footershop button{
+    /* Large-Button-Radius-60 */
+width: 141.79px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items:center;
+gap: 10px;
+padding: 15px 35px 15px 35px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+.footernext{
+   /* Arrows-1 */
+width: 61.94px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+color: rgb(255, 255, 255, 1);
+
+display: flex;
+justify-content: center;
+text-align: center;
+margin-left: 10px;
+margin-right: 7px;
+}
+
+.footerall{
+
+}
+
+.footerimage{
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  margin: 7px;
+  background-color: white;
+  overflow: hidden;
+  justify-content: space-between;
+
+  
+    /* Rectangle 261 */
+width:205px;
+height: 392px;
+
+
+}
+
+
+.footerimage2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+justify-content: center;
+    background: url(./images/products/sony_notebook.png);
+  background-size:100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+    height: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.sony{
+   color:  rgba(98, 105, 116, 1);
+    /* brand */
+width: 35px;
+height: 22px;
+margin-bottom: 20px;
+}
+.sony2{
+    /* title */
+width: 168.11px;
+height: 56px;
+}
+.sonystar{
+color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.sonydoller del{
+    color: rgba(98, 105, 116, 1);
+margin-left: 5px;
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sonydoller{
+    margin-bottom: 20px;
+}
+
+
+
+
+.tablemain{
+    width: 100%;
+    height: 500px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+
+}
+.tabletext{
+    width: 1320px;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tabletext table{
+    display: flex;
+    justify-content: space-between;
+}
+.tabletext tr{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
